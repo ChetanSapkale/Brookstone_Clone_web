@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- https://www.brookstone.com/ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divyesh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="media.css">
+</head>
+<style>
+    .home {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .home h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .home p {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .homebtn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    /* @media (max-width: 600px) {
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+        }
+    } */
+</style>
+
+<body>
+
+    <section class="main-navbar-section">
+        <nav class="navbar navbar-light bg-light d-flex">
+            <div class="container d-flex">
+                <div class="logo" href="index.html">
+                    <a>
+                        <img src="img/brookstone-logo1_1600x.png" alt="" class="">
+                    </a>
+                </div>
+                <!-- navigation icone  -->
+                <div class="threeDots">
+                    <i class="bi bi-list"></i>
+                </div>
+
+                <!-- <form class="d-flex"> -->
+                <input class="form-control me-2 w-50" type="search" placeholder="Search" aria-label="Search">
+                <div class="icone">
+                    <a href="Login&SignUp.html">
+                        <i class="bi bi-person"></i>
+                    </a>
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-cart cart"> 0</i>
+                </div>
+                <!-- </form> -->
+            </div>
+        </nav>
+        <div class="addToCard">
+            <div class="subAddToCard">
+                <i class="bi bi-x"></i>
+            </div>
+            <div class="sub-cart">
+                <h5>My cart</h5>
+                <span>0 itam</span>
+            </div>
+            <div class="subAddCart">
+
+
+            </div>
+
+        </div>
+
+        <section class="navigation container">
+            <ul>
+                <!-- New -->
+                <li>
+                    <a href="new.html">New</a>
+                </li>
+
+                <!-- massage -->
+                <li class="main-nav-con">
+                    <a href="massage.html" class="msg">Massage</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Massage Chairs</p>
+                                        </td>
+                                        <td>
+                                            <p>Massage Guns</p>
+                                        </td>
+                                        <td>
+                                            <p>Neck & Back</p>
+                                        </td>
+                                        <td>
+                                            <p>Best Sellers</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Eye</p>
+                                        </td>
+                                        <td>
+                                            <p>Hand</p>
+                                        </td>
+                                        <td>
+                                            <p>Rollers</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Intimate</p>
+                                        </td>
+                                        <td>
+                                            <p>Foot & Leg</p>
+                                        </td>
+                                        <td>
+                                            <p>Seat Topper</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/massage_01.jpg" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/rei-thumb_1.jpg" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- wellness -->
+                <li class="main-nav-con">
+                    <a href="wellness.html" class="Welness">Welness</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Bath</p>
+                                        </td>
+                                        <td>
+                                            <p>Cupping</p>
+                                        </td>
+                                        <td>
+                                            <p>LED Light Therapy</p>
+                                        </td>
+                                        <td>
+                                            <p>Best Sellers</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Cold & Heat Therapy</p>
+                                        </td>
+                                        <td>
+                                            <p>Eye Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Meditation</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Comfort</p>
+                                        </td>
+                                        <td>
+                                            <p>Grooming</p>
+                                        </td>
+                                        <td>
+                                            <p>Skin Care</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Cleansers & Serums</p>
+                                        </td>
+                                        <td>
+                                            <p>Hair Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Sound Machines</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Bath.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/skin.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- sleep -->
+                <li class="main-nav-con">
+                    <a href="sleep.html">Sleep</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Air Quality</p>
+                                        </td>
+                                        <td>
+                                            <p>Clocks</p>
+                                        </td>
+                                        <td>
+                                            <p>Pillows</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Alarms</p>
+                                        </td>
+                                        <td>
+                                            <p>Comfort</p>
+                                        </td>
+                                        <td>
+                                            <p>Intimate Pillows</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Bedding</p>
+                                        </td>
+                                        <td>
+                                            <p>Mattress</p>
+                                        </td>
+                                        <td>
+                                            <p>Sound Machines</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/pillow.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/l.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- home -->
+                <li class="main-nav-con">
+                    <a href="home.html">Home</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Bath</p>
+                                        </td>
+                                        <td>
+                                            <p>Cupping</p>
+                                        </td>
+                                        <td>
+                                            <p>LED Light Therapy</p>
+                                        </td>
+                                        <td>
+                                            <p>Best Sellers</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Cold & Heat Therapy</p>
+                                        </td>
+                                        <td>
+                                            <p>Eye Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Meditation</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Comfort</p>
+                                        </td>
+                                        <td>
+                                            <p>Grooming</p>
+                                        </td>
+                                        <td>
+                                            <p>Skin Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Bedding</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Cleansers & Serums</p>
+                                        </td>
+                                        <td>
+                                            <p>Hair Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Sound Machines</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Accent-Decor.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/Lighting.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Wine & Bar -->
+                <li class="main-nav-con">
+                    <a href="WineBar.html">Wine & Bar</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Decanters</p>
+                                        </td>
+                                        <td>
+                                            <p>Glassware</p>
+                                        </td>
+                                        <td>
+                                            <p>Tech</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Gift Sets</p>
+                                        </td>
+                                        <td>
+                                            <p>Non-Glassware</p>
+                                        </td>
+                                        <td>
+                                            <p>Tools & Accessories</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Accessories-_-Tools_cfdd3afb-3ef5-4a7a-a5a2-6e86704b3af8.avif"
+                                            alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/Glassware.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Fitness -->
+                <li class="main-nav-con">
+                    <a href="Fitness.html">Fitness</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Accessories</p>
+                                        </td>
+                                        <td>
+                                            <p>Exercise Machines</p>
+                                        </td>
+                                        <td>
+                                            <p>Yoga</p>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Connected Fitness</p>
+                                        </td>
+                                        <td>
+                                            <p>Sports Recovery</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Accessories.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/fit.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Outdoor -->
+                <li class="main-nav-con">
+                    <a href="Outdoor.html">Outdoor</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Bath</p>
+                                        </td>
+                                        <td>
+                                            <p>Cupping</p>
+                                        </td>
+                                        <td>
+                                            <p>LED Light Therapy</p>
+                                        </td>
+                                        <td>
+                                            <p>Best Sellers</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Cold & Heat Therapy</p>
+                                        </td>
+                                        <td>
+                                            <p>Eye Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Meditation</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Comfort</p>
+                                        </td>
+                                        <td>
+                                            <p>Grooming</p>
+                                        </td>
+                                        <td>
+                                            <p>Skin Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Bedding</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Cleansers & Serums</p>
+                                        </td>
+                                        <td>
+                                            <p>Hair Care</p>
+                                        </td>
+                                        <td>
+                                            <p>Sound Machines</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Outdoor-Furniture.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/fire.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Technology -->
+                <li class="main-nav-con">
+                    <a href="Technology.html">Technology</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Massage Chairs</p>
+                                        </td>
+                                        <td>
+                                            <p>Massage Guns</p>
+                                        </td>
+                                        <td>
+                                            <p>Neck & Back</p>
+                                        </td>
+                                        <td>
+                                            <p>Best Sellers</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Eye</p>
+                                        </td>
+                                        <td>
+                                            <p>Hand</p>
+                                        </td>
+                                        <td>
+                                            <p>Rollers</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Intimate</p>
+                                        </td>
+                                        <td>
+                                            <p>Foot & Leg</p>
+                                        </td>
+                                        <td>
+                                            <p>Seat Topper</p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                Speakers
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Charging-_-Batteries.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/bell.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Travel -->
+                <li class="main-nav-con">
+                    <a href="Travel.html">Travel</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Decanters</p>
+                                        </td>
+                                        <td>
+                                            <p>Glassware</p>
+                                        </td>
+
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Gift Sets</p>
+                                        </td>
+                                        <td>
+                                            <p>Non-Glassware</p>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Luggage.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/luggage-2.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Accesory -->
+                <li class="main-nav-con">
+                    <a href="Accesory.html">Accesory</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Decanters</p>
+                                        </td>
+                                        <td>
+                                            <p>Glassware</p>
+                                        </td>
+                                        <td>
+                                            <p>Tech</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Gift Sets</p>
+                                        </td>
+                                        <td>
+                                            <p>Non-Glassware</p>
+                                        </td>
+                                        <td>
+                                            <p>Tools & Accessories</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Everyday-Carry.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/clock.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <!-- Entertainment -->
+                <li class="main-nav-con">
+                    <a href="Entertainment.html">Entertainment</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+                            <div class="msg-nav">
+                                <table class="table-1">
+                                    <tr>
+                                        <td>
+                                            <p>Accessories</p>
+                                        </td>
+                                        <td>
+                                            <p>Exercise Machines</p>
+                                        </td>
+                                        <td>
+                                            <p>Toys</p>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Connected Fitness</p>
+                                        </td>
+                                        <td>
+                                            <p>Holiday</p>
+                                        </td>
+                                        <td>
+                                            <p>View All</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Discovery.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/Games.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Gift -->
+                <li class="main-nav-con">
+                    <a href="Gift.html">Gift</a>
+                    <div class="sub-msg">
+                        <div class="sub-child-msg">
+
+                            <div class="msg-img">
+                                <div class="img-msg">
+                                    <div>
+                                        <img src="img/Bar-Gift-Sets.avif" alt="" width="200px">
+                                    </div>
+                                    <div>
+                                        <img src="img/gc.avif" alt="" width="200px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Sale -->
+                <li>
+                    <a href="Sale.html">Sale</a>
+                </li>
+
+            </ul>
+        </section>
+    </section>
+
+    <div class="container home">
+        <h1>Accesory Page Not Found</h1>
+        <p>We're sorry, but the page you're looking for could not be found.</p>
+        <a href="index.html" class="homebtn mb-2">Go to Home Page</a>
+        <a href="new.html" class="homebtn mb-2">Go to New Page</a>
+        <a href="massage.html" class="homebtn mb-2">Go to Massage Page</a>
+        <a href="wellness.html" class="homebtn mb-2">Go to wellness Page</a>
+    </div>
+
+    <section class="footer">
+        <div class="both-footer">
+            <div class="left-footer">
+                <h3>Stay in the loop</h3>
+                <p>Sign up and be the first to hear about new products and promotions!</p>
+                <button class="btn btn-light">SINGUP NOW</button>
+                <div class="icones">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
+            </div>
+
+            <div class="right-footer">
+                <img src="img/BKST_Klarna_Banner_Update_HP_Desktop_1600x.avif" alt="" width="90%" class="footer-img">
+                <div class="main-sub-footer">
+
+                    <div>
+                        <h6>SHOP BROOKSTONE.COM</h6>
+                        <p>Massage Chair Buyers Guide</p>
+                        <p>FAQ</p>
+                        <p> About Us</p>
+                        <p>Shipping Info</p>
+                        <p>Privacy Policy</p>
+                        <p>Prop 65</p>
+                        <p>Accessibility Statement</p>
+                    </div>
+
+                    <div>
+                        <h6>CUSTOMER SERVICE</h6>
+                        <p>Contact Us</p>
+                        <p>Return Policy</p>
+                        <p>Order Tracking</p>
+                        <p>Product Manuals</p>
+                        <p>Your California Privacy Rights</p>
+                        <p>Accessibility Mode</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <script src="media.js"></script>
+    <script src="allinOne.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1307 @@
+@media((min-width:300px) and (max-width:480px)) {
+    .navbar {
+        position: relative;
+        height: 20vh;
+        padding: 10%;
+    }
+
+    .sub-msg {
+        display: none;
+    }
+
+    .main-nav-con:hover .sub-msg {
+        /* background-color: white; */
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        height: 40px;
+
+    }
+
+    .form-control {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+        right: 2%;
+    }
+
+    .icone {
+        position: absolute;
+        top: 15%;
+        right: 2%;
+    }
+
+    .bi-list {
+        display: block;
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .navigation {
+        display: none;
+        background-color: #fff;
+        overflow: auto;
+        height: 75vh;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .navigation ul li {
+        padding: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
+        /* background-color: red; */
+        border-bottom: 2px solid #50514f;
+    }
+
+    .sliders {
+        height: 100%;
+    }
+
+    .mid-images {
+        height: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .img-big {
+        margin: 0px 0px 10px 0px;
+        height: 100%;
+    }
+
+    .first-img {
+        height: 100%;
+    }
+
+    .sec-img {
+        height: 100%;
+    }
+
+    .middle-section {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .sub-catogeries {
+        margin: 10px 0px 20px 0px;
+        align-items: center;
+        text-align: center;
+        padding: 0%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dynamic-name {
+        text-align: center;
+        /* background-color: rebeccapurple; */
+        width: 100%;
+    }
+
+    .data1 {
+        width: 100%;
+    }
+
+    .big-slider {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .bigImg {
+        width: 100%;
+    }
+
+    .big-slider2 {
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .smallImg {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px;
+        position: relative;
+    }
+
+    .both-footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* background-color: wheat; */
+    }
+
+    .left-footer {
+        /* background-color: #61C396; */
+        width: 100%;
+    }
+
+    .left-footer h3 {
+        font-size: 18px;
+        width: 100%;
+        margin: 30px 0px
+    }
+
+    .footer-img {
+        margin: 0px 0px 0px 0px;
+        border-radius: 0px;
+        /* height: 12vh; */
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+    }
+
+    .main-sub-footer {
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-sub-footer h6 {
+        margin: 0%;
+    }
+
+
+    /* --------------------------------- */
+    /* new page */
+
+    .newpage-body {
+        position: sticky;
+        top: 100px;
+        background-color: #fff;
+        width: 99%;
+        margin: auto;
+        padding: 20px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .filter {
+        display: block;
+    }
+
+    .new-content p {
+        margin: 5px 0px;
+    }
+
+    .price-section {
+        display: none;
+        width: 100%;
+        height: 60vh;
+        border: 1px solid #50514f;
+        border-radius: 5px;
+        top: 200px;
+        background-color: #fff;
+    }
+
+    .newpage-price-image {
+        margin: 0%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .price-cancel-btn {
+        display: flex;
+        /* justify-content: space-around; */
+        padding: 0px 15px 0px 0px;
+        /* background-color: red; */
+        margin: 0px 10px 0px 0px;
+    }
+
+    .bi-x-lg {
+        display: block;
+        margin: 0px 0px 0px 170px;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+
+    .newpage-images {
+        width: 100%;
+    }
+
+    .sub-newpage-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        margin: 0px 0px 100px 0px;
+    }
+
+    #dropdownMenu2 {
+        margin: 5px 15px;
+    }
+
+    .filter {
+        padding: 8px 40px;
+        margin: 5px 15px;
+        border-radius: 5px;
+        font-size: 13px;
+        color: #50514f;
+        box-shadow: 2px 2px 5px 0px blue;
+    }
+
+    .forFilter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sub-nav-newpage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* addToCard */
+    .addToCard {
+        background-color: #fff;
+        height: 70vh;
+        position: absolute;
+        right: 4%;
+        top: 50%;
+        width: 95%;
+        z-index: 999;
+        border-radius: 5px;
+        padding: 0px 10px;
+        display: none;
+        overflow: auto;
+    }
+
+    .main-sub-cart {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #50514f;
+        padding: 10px 0px;
+    }
+
+    /* massage page */
+    .massage-images {
+        /* background-color: red; */
+        width: 90%;
+        margin: auto;
+        /* height: 100vh; */
+    }
+
+    .sub-massage-images {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    /* form */
+    .bothForm {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .LoginInput {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .signUpInput {
+        width: 100%;
+        height: 7vh;
+    }
+
+    /* add */
+
+    .adds {
+        width: 90%;
+        padding: 2px 5px;
+    }
+}
+
+@media((min-width:481px) and (max-width:576px)) {
+    .navbar {
+        position: relative;
+        height: 20vh;
+        padding: 10%;
+    }
+
+    .sub-msg {
+        display: none;
+    }
+
+    .main-nav-con:hover .sub-msg {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        height: 40px;
+    }
+
+    .form-control {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+        right: 2%;
+    }
+
+    .icone {
+        position: absolute;
+        top: 15%;
+        right: 2%;
+    }
+
+    .bi-list {
+        display: block;
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .navigation {
+        display: none;
+        background-color: #fff;
+        overflow: auto;
+        height: 75vh;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .navigation ul li {
+        padding: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
+        border-bottom: 2px solid #50514f;
+    }
+
+    .sliders {
+        height: 100%;
+    }
+
+    .mid-images {
+        height: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .img-big {
+        margin: 0px 0px 10px 0px;
+        height: 100%;
+    }
+
+    .first-img {
+        height: 100%;
+    }
+
+    .sec-img {
+        height: 100%;
+    }
+
+    .middle-section {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .sub-catogeries {
+        margin: 10px 0px 20px 0px;
+        align-items: center;
+        text-align: center;
+        padding: 0%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .dynamic-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .data1 {
+        width: 100%;
+    }
+
+    .big-slider {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .bigImg {
+        width: 100%;
+    }
+
+    .big-slider2 {
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .smallImg {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px;
+        position: relative;
+    }
+
+    .both-footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-footer {
+        width: 100%;
+    }
+
+    .left-footer h3 {
+        font-size: 18px;
+        width: 100%;
+        margin: 30px 0px
+    }
+
+    .footer-img {
+        margin: 0px 0px 0px 0px;
+        border-radius: 0px;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+    }
+
+    .main-sub-footer {
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-sub-footer h6 {
+        margin: 0%;
+    }
+
+
+    /* --------------------------------- */
+    /* new page */
+
+    .newpage-body {
+        position: sticky;
+        top: 100px;
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        padding: 20px 0px;
+        margin: auto;
+    }
+
+    .filter {
+        display: block;
+    }
+
+    .new-content p {
+        margin: 5px 0px;
+    }
+
+    .price-section {
+        display: none;
+        width: 60%;
+        height: 60vh;
+        border: 1px solid #50514f;
+        border-radius: 5px;
+        top: 200px;
+        background-color: #fff;
+    }
+
+    .newpage-price-image {
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .price-cancel-btn {
+        display: flex;
+        padding: 0px 15px 0px 0px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .bi-x-lg {
+        display: block;
+        margin: 0px 0px 0px 170px;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+
+    .newpage-images {
+        width: 100%;
+    }
+
+    .sub-newpage-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        margin: 0px 0px 100px 0px;
+    }
+
+    #dropdownMenu2 {
+        margin: 5px 15px;
+    }
+
+    .filter {
+        padding: 8px 40px;
+        margin: 5px 20px;
+        border-radius: 5px;
+        font-size: 13px;
+        color: #50514f;
+        box-shadow: 2px 2px 5px 0px blue;
+    }
+
+    .forFilter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sub-nav-newpage {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+
+    }
+
+    /* addToCard */
+    .addToCard {
+        background-color: #fff;
+        height: 70vh;
+        position: absolute;
+        right: 4%;
+        top: 50%;
+        width: 95%;
+        z-index: 999;
+        border-radius: 5px;
+        padding: 0px 10px;
+        display: none;
+        overflow: auto;
+    }
+
+    .main-sub-cart {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #50514f;
+        padding: 10px 0px;
+    }
+
+    /* massage page */
+    .massage-images {
+        /* background-color: red; */
+        width: 90%;
+        margin: auto;
+        /* height: 100vh; */
+    }
+
+    .sub-massage-images {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    /* form */
+    .bothForm {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .LoginInput {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .signUpInput {
+        width: 100%;
+        height: 7vh;
+    }
+    /* add */
+
+    .adds {
+        width: 70%;
+        padding: 2px 5px;
+    }
+}
+
+
+@media((min-width:577px) and (max-width:768px)) {
+    .navbar {
+        position: relative;
+        height: 0vh;
+        background-color: red;
+        padding: 7%;
+    }
+
+    .sub-msg {
+        display: none;
+    }
+
+    .main-nav-con:hover .sub-msg {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        height: 40px;
+    }
+
+    .form-control {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+        right: 2%;
+    }
+
+    .icone {
+        position: absolute;
+        top: 15%;
+        right: 2%;
+    }
+
+    .bi-list {
+        display: block;
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .navigation {
+        display: none;
+        background-color: #fff;
+        overflow: auto;
+        height: 75vh;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .navigation ul li {
+        padding: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
+        border-bottom: 2px solid #50514f;
+    }
+
+    .sliders {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider-img {
+        width: 150%;
+        gap: 20px;
+        /* margin: 10px 80px; */
+
+    }
+
+    .left-arrow i {
+        top: 45%;
+        left: 2%;
+        color: #212529;
+    }
+
+    .right-arrow i {
+        top: 45%;
+        right: 2%;
+        color: #212529;
+    }
+
+    .mid-images {
+        height: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .img-big {
+        margin: 0px 0px 10px 0px;
+        height: 100%;
+    }
+
+    .first-img {
+        height: 100%;
+    }
+
+    .sec-img {
+        height: 100%;
+    }
+
+    .middle-section {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .sub-catogeries {
+        margin: 10px 0px 20px 0px;
+        align-items: center;
+        text-align: center;
+        padding: 0%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .dynamic-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .data1 {
+        width: 100%;
+    }
+
+    .big-slider {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .bigImg {
+        width: 285px;
+    }
+
+    .big-slider2 {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .smallImg {
+        width: 220px;
+    }
+
+    .footer {
+        padding: 10px;
+        position: relative;
+    }
+
+    .both-footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-footer {
+        width: 100%;
+    }
+
+    .left-footer h3 {
+        font-size: 18px;
+        width: 100%;
+        margin: 30px 0px
+    }
+
+    .footer-img {
+        margin: 0px 0px 0px 0px;
+        border-radius: 0px;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+    }
+
+    .main-sub-footer {
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-sub-footer h6 {
+        margin: 0%;
+    }
+
+
+    /* --------------------------------- */
+    /* new page */
+
+    .newpage-body {
+        position: sticky;
+        top: 100px;
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        padding: 20px 0px;
+        margin: auto;
+    }
+
+    .filter {
+        display: block;
+    }
+
+    .new-content p {
+        margin: 5px 0px;
+    }
+
+    .price-section {
+        display: none;
+        width: 60%;
+        height: 60vh;
+        border: 1px solid #50514f;
+        border-radius: 5px;
+        top: 200px;
+        background-color: #fff;
+    }
+
+    .newpage-price-image {
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .price-cancel-btn {
+        display: flex;
+        padding: 0px 15px 0px 0px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .bi-x-lg {
+        display: block;
+        margin: 0px 0px 0px 170px;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+
+    .newpage-images {
+        width: 100%;
+    }
+
+    .sub-newpage-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        margin: 0px 0px 100px 0px;
+    }
+
+    #dropdownMenu2 {
+        margin: 5px 15px;
+    }
+
+    .filter {
+        padding: 8px 40px;
+        margin: 5px 20px;
+        border-radius: 5px;
+        font-size: 13px;
+        color: #50514f;
+        box-shadow: 2px 2px 5px 0px blue;
+    }
+
+    .forFilter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sub-nav-newpage {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+
+    }
+
+    /* addToCard */
+    .addToCard {
+        background-color: #fff;
+        height: 70vh;
+        position: absolute;
+        right: 4%;
+        top: 50%;
+        width: 95%;
+        z-index: 999;
+        border-radius: 5px;
+        padding: 0px 10px;
+        display: none;
+        overflow: auto;
+    }
+
+    .main-sub-cart {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #50514f;
+        padding: 10px 0px;
+    }
+
+    /* massage page */
+    .massage-images {
+        /* background-color: red; */
+        width: 90%;
+        margin: auto;
+        /* height: 100vh; */
+    }
+
+    .sub-massage-images {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    /* form */
+    .bothForm {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        margin: 20px 0px;
+    }
+
+    .LoginInput {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .signUpInput {
+        width: 100%;
+        height: 7vh;
+    }
+    /* add */
+
+    .adds {
+        width: 60%;
+        padding: 5px 10px;
+    }
+}
+
+
+/*  */
+
+@media((min-width:769px) and (max-width:992px)) {
+    .navbar {
+        position: relative;
+        height: 0vh;
+        background-color: red;
+        padding: 7%;
+    }
+
+    .sub-msg {
+        display: none;
+    }
+
+    .main-nav-con:hover .sub-msg {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        height: 40px;
+    }
+
+    .form-control {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+        right: 2%;
+    }
+
+    .icone {
+        position: absolute;
+        top: 15%;
+        right: 2%;
+    }
+
+    .bi-list {
+        display: block;
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .navigation {
+        display: none;
+        background-color: #fff;
+        overflow: auto;
+        height: 75vh;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .navigation ul li {
+        padding: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
+        border-bottom: 2px solid #50514f;
+    }
+
+    .sliders {
+        height: 100%;
+        width: 100%;
+    }
+
+    .mid-images {
+        height: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .img-big {
+        margin: 0px 0px 10px 0px;
+        height: 100%;
+    }
+
+    .first-img {
+        height: 100%;
+    }
+
+    .sec-img {
+        height: 100%;
+    }
+
+    .middle-section {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .sub-catogeries {
+        margin: 10px 0px 20px 0px;
+        align-items: center;
+        text-align: center;
+        padding: 0%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .dynamic-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .data1 {
+        width: 100%;
+    }
+
+    .big-slider {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .bigImg {
+        width: 100%;
+    }
+
+    .big-slider2 {
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .smallImg {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px;
+        position: relative;
+    }
+
+    .both-footer {
+        text-align: center;
+        display: flex;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+
+    .left-footer {
+        width: 100%;
+    }
+
+    .left-footer h3 {
+        font-size: 18px;
+        width: 100%;
+        margin: 30px 0px
+    }
+
+    .footer-img {
+        margin: 0px 0px 0px 0px;
+        /* border-radius: 0px;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%; */
+    }
+
+    .main-sub-footer {
+        margin-top: 5%;
+        /* display: flex; */
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-sub-footer h6 {
+        margin: 0%;
+    }
+
+
+    /* --------------------------------- */
+    /* new page */
+
+    .newpage-body {
+        position: sticky;
+        top: 100px;
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        padding: 20px 0px;
+        margin: auto;
+    }
+
+    .filter {
+        display: block;
+    }
+
+    .new-content p {
+        margin: 5px 0px;
+    }
+
+    .price-section {
+        display: none;
+        width: 60%;
+        height: 60vh;
+        border: 1px solid #50514f;
+        border-radius: 5px;
+        top: 200px;
+        background-color: #fff;
+    }
+
+    .newpage-price-image {
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .price-cancel-btn {
+        display: flex;
+        padding: 0px 15px 0px 0px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .bi-x-lg {
+        display: block;
+        margin: 0px 0px 0px 170px;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+
+    .newpage-images {
+        width: 100%;
+    }
+
+    .sub-newpage-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        margin: 0px 0px 100px 0px;
+    }
+
+    #dropdownMenu2 {
+        margin: 5px 15px;
+    }
+
+    .filter {
+        padding: 8px 40px;
+        margin: 5px 20px;
+        border-radius: 5px;
+        font-size: 13px;
+        color: #50514f;
+        box-shadow: 2px 2px 5px 0px blue;
+    }
+
+    .forFilter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sub-nav-newpage {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+
+    }
+
+    /* addToCard */
+    .addToCard {
+        background-color: #fff;
+        height: 70vh;
+        position: absolute;
+        right: 4%;
+        top: 50%;
+        width: 95%;
+        z-index: 999;
+        border-radius: 5px;
+        padding: 0px 10px;
+        display: none;
+        overflow: auto;
+    }
+
+    .main-sub-cart {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #50514f;
+        padding: 10px 0px;
+    }
+
+    /* massage page */
+    .massage-images {
+        /* background-color: red; */
+        width: 90%;
+        margin: auto;
+        /* height: 100vh; */
+    }
+
+    .sub-massage-images {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    /* form */
+    .bothForm {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        margin: 20px 0px;
+    }
+
+    .LoginInput {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .signUpInput {
+        width: 100%;
+        height: 7vh;
+    }
+    /* add */
+
+    .adds {
+        width: 50%;
+        padding: 5px 15px;
+    }
+}
