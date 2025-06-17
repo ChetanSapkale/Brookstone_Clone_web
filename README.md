@@ -14,7 +14,7 @@ A modern, responsive Brookstone eCommerce homepage clone built using **HTML5**, 
 
 ## 📸 Preview
 
-[Brookstone Clone Preview][Brookstone Landing Page]https://github.com/user-attachments/assets/807fb6db-6a86-43d9-abe7-f77127e8cb7c
+[Brookstone Clone Preview][Brookstone Landing Page](https://github.com/user-attachments/assets/807fb6db-6a86-43d9-abe7-f77127e8cb7c)
 ) <!-- Replace with actual screenshot link -->
 
 ---
